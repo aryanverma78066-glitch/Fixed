@@ -15,6 +15,7 @@ jobs:
       run: |
         unzip game_project.zip
         cp -r game_project/* .
+        ls -la
 
     - name: Install dependencies
       run: |
